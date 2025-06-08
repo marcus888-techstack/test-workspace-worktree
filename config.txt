@@ -1,0 +1,9 @@
+# Configuration File
+app_name=My Project
+version=1.0.0
+debug_mode=false
+
+# Feature flags
+feature_a_enabled=false
+feature_b_enabled=false
+feature_c_enabled=false
