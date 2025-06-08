@@ -1,0 +1,54 @@
+{
+    "folders": [
+        {
+            "name": "🏠 Main Branch",
+            "path": "."
+        }
+        // Your worktrees will appear here when created using:
+        // ./worktree-manager.sh create <branch-name>
+        // 
+        // Example entries that will be added:
+        // {
+        //     "name": "🚀 Feature: Your Feature",
+        //     "path": "worktrees/feature/your-feature"
+        // }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/.git": true,
+            "**/__pycache__": true,
+            "**/*.pyc": true
+        },
+        "search.exclude": {
+            "**/node_modules": true,
+            "**/dist": true,
+            "**/.git": true
+        },
+        "terminal.integrated.defaultProfile.osx": "zsh",
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.defaultProfile.windows": "powershell",
+        "git.autoRepositoryDetection": "openEditors",
+        "editor.formatOnSave": true,
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": true
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-python.python",
+            "eamodio.gitlens",
+            "mhutchie.git-graph"
+        ]
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "Python: Current File",
+                "type": "python",
+                "request": "launch",
+                "program": "${file}",
+                "console": "integratedTerminal"
+            }
+        ]
+    }
+}

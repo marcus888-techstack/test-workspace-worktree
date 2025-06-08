@@ -2,6 +2,37 @@
 
 > **Transform your development workflow from sequential to parallel. Control multiple development streams like a boss. Perfect for agentic coding where multiple AI assistants work on different features simultaneously.**
 
+## 🎁 Using This Template
+
+This is a **Git Worktree Template Repository** ready for your next project! 
+
+### Quick Start with This Template:
+
+1. **Clone or fork this repository**
+   ```bash
+   git clone <this-repo-url> your-project-name
+   cd your-project-name
+   ```
+
+2. **Start creating your worktrees**
+   ```bash
+   ./worktree-manager.sh create feature/your-first-feature
+   ```
+
+3. **Open in Cursor/VS Code**
+   ```bash
+   cursor myproject.code-workspace
+   # or
+   code myproject.code-workspace
+   ```
+
+4. **Start developing!** 
+   - Your project files go in the main directory
+   - Each feature gets its own worktree
+   - Use the included tools and guides below
+
+---
+
 ## 🎯 Why This Changes Everything
 
 Imagine having **multiple versions of your codebase open simultaneously**, each in its own branch, each with its own terminal, each potentially running a different AI coding assistant. No more context switching. No more stashing changes. No more "let me just quickly fix this bug" interrupting your feature work.
@@ -415,3 +446,22 @@ With this setup, you can:
 **Questions?** Check the [worktree-guide.md](worktree-guide.md) for more details.
 
 **Contributing?** Create a worktree for your feature and submit a PR!
+
+## 👥 Contributors
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/marcus888-techstack">
+        <img src="https://avatars.githubusercontent.com/u/marcus888-techstack?v=4" width="100px;" alt="Marcus"/><br />
+        <sub><b>Marcus</b></sub>
+      </a><br />
+      <a href="https://github.com/marcus888-techstack/test-workspace-worktree/commits?author=marcus888-techstack" title="Code">💻</a>
+      <a href="https://github.com/marcus888-techstack/test-workspace-worktree/commits?author=marcus888-techstack" title="Documentation">📖</a>
+      <a href="#ideas-marcus888-techstack" title="Ideas, Planning, & Feedback">🤔</a>
+      <a href="#design-marcus888-techstack" title="Design">🎨</a>
+    </td>
+  </tr>
+</table>
+
+See our [Contributors Guide](CONTRIBUTORS.md) for more information.

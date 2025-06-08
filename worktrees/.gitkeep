@@ -1,0 +1,3 @@
+# This file keeps the worktrees directory in git
+# Worktrees will be created here when you run:
+# ./worktree-manager.sh create <branch-name>

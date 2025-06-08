@@ -1,0 +1,59 @@
+# Worktree Template
+# Ignore all worktree contents except .gitkeep
+worktrees/*
+!worktrees/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+vendor/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+*.egg-info/
+
+# Testing
+coverage/
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Add your project-specific ignores below this line
+# ================================================
